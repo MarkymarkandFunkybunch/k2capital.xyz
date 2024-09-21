@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K2 Capital - Version 1</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png"> <!-- Or replace with favicon.ico -->
+    <style>
+        /* Custom Tailwind Configuration */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa; /* Bright, light background */
+            color: #333333; /* Dark gray text for readability */
+        }
+
+        /* Klein Blue incorporation */
+        .klein-blue {
+            color: #002FA7; /* Klein Blue for headings and links */
+        }
+
+        .section {
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        /* Adjust offering item styles */
+        .offering-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .highlight {
+            color: #002FA7; /* Consistent Klein Blue */
+        }
+
+        /* Custom alignment */
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        /* Add styling for the logo and header */
+        .logo-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .logo-header img {
+            margin-right: 12px; /* Space between logo and "K2 Capital" text */
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center min-h-screen px-4">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-12">
+        <!-- Left Section -->
+        <div class="section md:w-2/3">
+            <!-- Logo and Header combined -->
+            <div class="logo-header">
+                <h1 class="text-4xl font-bold klein-blue">K2 Capital</h1>
+            </div>
+            
+            <p class="mb-4">
+                GM, we are K2 Capital, a crypto venture studio anchored in the ever-evolving currents of the blockchain universe, steered by seasoned traders, builders, and strategists.
+            </p>
+            <p class="mb-4">
+                In the crypto realm, where the cadence of change is swift and the horizon limitless, K2 Capital emerges as the guiding star, charting a path where others see only fog. Like the miners who delve into the unknown, unearthing gems of opportunity, we forge connections, scale projects, and empower visionaries to transcend traditional boundaries. We are the confluence of liquidity, acceleration, and infrastructure, committed to uplifting founders who dare to sculpt the decentralized future.
+            </p>
+            <p class="mb-4">
+                Together, let's navigate this boundless digital frontier, turning ambitions into the very code that shapes tomorrow.
+            </p>
+
+            <!-- Our Offering Section -->
+            <h2 class="text-2xl font-bold mt-8 klein-blue">Our Offering</h2>
+            <div class="mt-4 space-y-4">
+                <div class="offering-item">
+                    <span class="font-semibold">K2 Liquid:</span> Investment Strategies Redefined - Unlock the potential of liquidity and alpha generation with our investor-focused strategies.
+                </div>
+                <div class="offering-item">
+                    <span class="font-semibold">K2 Ventures:</span> Accelerate Your Vision - We specialize in incubating and accelerating projects, providing the support needed to thrive.
+                </div>
+                <div class="offering-item">
+                    <span class="font-semibold">K2 Networks:</span> Build and Engage Communities - Craft impactful experiences and foster collaborative networks through curated events.
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Section (aligned with "Our Offering") -->
+        <div class="section md:w-1/3 mt-20"> <!-- Added margin to align with "Our Offering" -->
+            <h2 class="text-xl font-bold mb-4 klein-blue">OUR TEAM</h2>
+            <hr class="border-gray-300 mb-4">
+            <div class="mb-4">
+                <p class="font-semibold klein-blue">K.W </p>
+                <p class="text-gray-600"> ex-CMO in Top CEX </p>
+            </div>
+            <div class="mb-4">
+                <p class="font-semibold klein-blue">M.L</p>
+                <p class="text-gray-600">exited startups / Veteran investor </p>
+            </div>
+
+            <div class="mb-4">
+                <p class="font-semibold klein-blue">Ken</p>
+                <p class="text-gray-600">On-Chain Degen / Defi Builder </p>
+            </div>
+          
+            <hr class="border-gray-300 my-4">
+            <p class="mb-2">Contact us: <a href="mailto:hello@k2capital.xyz" class="klein-blue underline">hello@k2capital.xyz</a></p>
+            
+        </div>
+    </div>
+</body>
+</html>
